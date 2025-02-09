@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense, JSX } from "react";
 
 export interface SuspenseWrapperProps {
   Component: React.LazyExoticComponent<() => JSX.Element>;

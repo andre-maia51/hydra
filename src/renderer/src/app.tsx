@@ -104,7 +104,9 @@ export function App() {
       updateLibrary();
     });
 
-    return () => unsubscribe();
+    return () => {
+      unsubscribe();
+    };
   }, [updateLibrary]);
 
   useEffect(() => {
