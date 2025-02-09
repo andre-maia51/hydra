@@ -7,7 +7,7 @@ export function useFormat() {
   const numberFormatter = useMemo(() => {
     return new Intl.NumberFormat(i18n.language, {
       maximumFractionDigits: 1,
-      minimumFractionDigits: 0
+      minimumFractionDigits: 0,
     });
   }, [i18n.language]);
 

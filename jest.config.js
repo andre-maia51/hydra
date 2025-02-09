@@ -3,6 +3,6 @@ export default {
   testEnvironment: "jsdom", // Alterado de "node" para "jsdom"
   moduleNameMapper: {
     "^@renderer/(.*)$": "<rootDir>/src/renderer/src/$1",
-    "^@shared/(.*)$": "<rootDir>/src/shared/$1"
-  }
+    "^@shared/(.*)$": "<rootDir>/src/shared/$1",
+  },
 };
