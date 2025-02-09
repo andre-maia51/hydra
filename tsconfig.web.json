@@ -8,10 +8,13 @@
     "src/locales/index.ts",
     "src/shared/**/*",
     "src/stories/**/*",
-    ".storybook/**/*"
+    ".storybook/**/*",
+    "src/renderer/src/tests/**/*",
+    "../src/renderer/**/*"
   ],
   "compilerOptions": {
     "composite": true,
+    "types": ["jest", "node"],
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
